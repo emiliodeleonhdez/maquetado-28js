@@ -1,0 +1,66 @@
+* {
+    font-size: 22px;
+    color: black;
+}
+
+
+h1 {
+    color: red;
+    font-size: 32px;
+}
+
+/* p {
+    color: purple;
+}
+
+p {
+    color: green;
+}
+
+p {
+    color: blue;
+} */
+
+.myText {
+    color: hotpink;
+}
+
+.myDiv {
+    color:yellowgreen;
+    font-size: 18px;
+}
+
+.customColor {
+    color: gray;
+}
+
+#login-button {
+    width: 180px;
+    height: 90px;
+}
+
+.example__box {
+    width: 110px;
+    height: 110px;
+    background: purple;
+    border: 12px groove orange;
+    margin: 10px;
+    /* margin-left: 50%; */
+    padding: 10px;
+}
+
+.header__box {
+    background: yellowgreen;
+    padding: 20px;
+}
+
+nav {
+    background: green;
+    /* margin: 20px; */
+}
+
+aside {
+    background: orange;
+    display: inline-block;
+    height: 100vh;
+}
