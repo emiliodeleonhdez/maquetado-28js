@@ -1,0 +1,5 @@
+# Ignorar archivos con terminación .css
+*.css
+
+# Ignorar archivos con terminación .css.map
+*.css.map

@@ -1,0 +1,68 @@
+@import 'xmass';
+@import 'spring';
+
+@mixin standard-button($button-color: black) {
+    width: 110px;
+    height: 45px;
+    border: none;
+    background-color: $button-color;
+    color: aqua;
+    border-radius: 15px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    color: hotpink;
+}
+
+p {
+    color: purple;
+}
+
+.example__text {
+    color: $primary-spring-color;
+}
+
+.span__text {
+    color: $primary-spring-color;
+}
+
+.div__text {
+    color: $primary-spring-color;
+}
+
+.golden__container {
+    .golden__text {
+        color: $golden-xmass;
+    }
+    .golden-button__shop {
+        border: none;
+        background-color: $golden-xmass;
+        width: 110px;
+        height: 45px;
+        color: white;
+        border-radius: 15px;
+        
+        &:hover {
+            background-color: $primary-xmass-color;
+            cursor: pointer;
+        }
+    }
+}
+
+.buttons__container {
+    .button__item {
+        @include standard-button;
+    }
+}
+
+.action__container {
+    .action__item {
+        @include standard-button(hotpink);
+    }
+}
