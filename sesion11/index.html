@@ -13,7 +13,7 @@
   </head>
   <body>
     <!-- <h1 class="text-primary">Hola Koders!</h1> -->
-    <header class="header__container">
+    <!-- <header class="header__container">
       <nav
         class="navbar bg-dark border-bottom border-body"
         data-bs-theme="dark"
@@ -54,7 +54,7 @@
           </div>
         </div>
       </nav>
-    </header>
+    </header> -->
     <!-- <section class="cards__container d-flex">
       <div class="card mx-3" style="width: 18rem">
         <img
@@ -132,30 +132,118 @@
       </div>
     </div> -->
 
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Navbar</a>
+              <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button> -->
+              <button>hamburguesa</button>
+
+              <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+                Button with data-bs-target
+              </button>
+              
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Dropdown
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <img src="./videos.svg" alt="">
+    <img src="./podcast.svg" alt="">
     <div class="container">
-        <div class="row">
-            <aside class="col-3"></aside>
-            <main class="posts_container col-6">
-                <div class="card">
-                    <img src="https://res.cloudinary.com/practicaldev/image/fetch/s--bi8ayJWG--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/p440p6v0qc709csgk7kj.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Creating a Sinatra API with system-wide dependency injection using dry-system and rom-rb</h5>
-                      <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
-                      <ul class="card__tags d-flex flex-wrap list-unstyled">
-                        <li class="card__tag me-2">#ruby</li>
-                        <li class="card__tag me-2">#programming</li>
-                        <li class="card__tag me-2">#architecture</li>
-                        <li class="card__tag me-2">#sinatra</li>
-                        <li class="card__tag me-2">#bootstrap</li>
-                      </ul>
-                    </div>
-                  </div>
-            </main>
-            <aside class="col-3"></aside>
-        </div>
+      <div class="row">
+        <aside class="col-3 d-none d-md-block bg-success"></aside>
+        <main class="posts_container col-12 col-md-9 col-lg-6">
+          <div class="card">
+            <img
+              src="https://res.cloudinary.com/practicaldev/image/fetch/s--bi8ayJWG--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/p440p6v0qc709csgk7kj.png"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">
+                Creating a Sinatra API with system-wide dependency injection
+                using dry-system and rom-rb
+              </h5>
+              <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
+              <ul class="card__tags d-flex flex-wrap list-unstyled">
+                <li class="card__tag me-2">#ruby</li>
+                <li class="card__tag me-2">#programming</li>
+                <li class="card__tag me-2">#architecture</li>
+                <li class="card__tag me-2">#sinatra</li>
+              </ul>
+              <div class="reactions__container d-flex">
+                <article class="me-3">
+                  <span class="d-none">111</span>
+                  <span class="d-none">Reactions</span>
+                </article>
+                <article class="me-3">
+                  <span>6</span>
+                  <span class="d-none">comments</span>
+                </article>
+              </div>
+            </div>
+          </div>
+        </main>
+        <aside class="col-3 d-none d-lg-block bg-success "></aside>
+      </div>
     </div>
+    <footer></footer>
 
 
+
+
+
+
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasExampleLabel">Offcanvas</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <div>
+            Some text as placeholder. In real life you can have the elements you have chosen. Like, text, images, lists, etc.
+          </div>
+          <div class="dropdown mt-3">
+            <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown">
+              Dropdown button
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
